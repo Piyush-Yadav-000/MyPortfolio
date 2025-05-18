@@ -29,8 +29,8 @@ const About = () => {
            Hi, I'm Piyush Yadav, a detail-oriented developer with a strong focus on Backend Development, Web Development, and Data Structures & Algorithm using Java. <br />I'm passionate about building scalable, efficient, and user-friendly applications.
           </p>
             <div className='flex py-2 space-x-5'>
-                <div className='border-b-blue-50 text-2xl flex items-center justify-center bg-black text-white rounded-lg p-2'> <img src="/github.png" className='h-6' alt="Githubpng" /><a href="https://github.com/Piyush-Yadav-000" target='_blank'>Github</a></div>
-                <div className='border-b-blue-50 text-2xl flex items-center justify-center bg-black text-white rounded-lg p-2'> <img src="/linkedin.webp" className='h-8' alt="" /><a href="https://github.com/Piyush-Yadav-000" target='_blank'>Linkedin</a></div>
+                <div className='border-b-blue-50 text-2xl flex items-center justify-center bg-black text-white rounded-lg p-2 hover:scale-90 transition-all 1s'> <img src="/github.png" className='h-6' alt="Githubpng" /><a href="https://github.com/Piyush-Yadav-000" target='_blank'>Github</a></div>
+                <div className='border-b-blue-50 text-2xl flex items-center justify-center bg-black text-white rounded-lg p-2 hover:scale-90 transition-all 1s'> <img src="/linkedin.webp" className='h-8' alt="" /><a href="https://github.com/Piyush-Yadav-000" target='_blank'>Linkedin</a></div>
 </div>
           <a className='p-2  text-2xl font-["Bricolage Grotesque"]' id='testbutton' href="/Piyush_Yadav_Resume.docx"
           download="Piyush_Yadav_Resume.docx">Download Resume</a>
