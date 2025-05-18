@@ -1,0 +1,82 @@
+.glow {
+  color: #c9a514;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #c76c6c, 0 0 30px #c0e600, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  to {
+    text-shadow: 0 0 20px #c61313, 0 0 30px #930b4f, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #f3ff0c, 0 0 70px #ff4da6, 0 0 80px #1e0311;
+  }
+}
+
+#testbutton {
+  border-radius:180px;
+  position:relative;
+  /* left:calc(50% - 75px);
+  top:calc(50% - 25px); */
+  background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+  cursor:pointer;
+  line-height:12px;
+}
+
+
+#testbutton:before {
+  content:'';
+  z-index:1;
+  position:absolute;
+  display:block;
+  width:80%;
+  height:70%;
+  top:15%;
+  left:10%;
+  transition: 0.3s opacity ease-in-out;
+  filter:blur(15px);
+  opacity:0;
+  background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+}
+
+#testbutton:hover:before {
+  opacity:1;
+  transition: 0.3s opacity ease-in-out;
+  filter:blur(25px);
+  background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);  
+}
+
+#testbutton:after {
+  content:'Download CV';
+  text-align:center;
+  line-height:40px;
+  font-size:18px;
+  color:rgba(235,235,235,1);
+  font-weight:bold;
+  z-index:5;
+  position:absolute;
+  display:block;
+  border-radius:180px;
+  width:92%;
+  height:80%;
+  top:10%;
+  left:4%;  
+  background-color:rgb(19, 20, 22);
+}
+
+
+
+.profile-img{
+  margin: 30px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 9px 4px #83790b;
+  animation: glow 1.5s linear infinite alternate;
+}
+
+@keyframes glow{
+  to {
+    box-shadow: 0px 0px 30px 20px #495212;
+  }
+}

@@ -1,0 +1,44 @@
+:root {
+    --bg-gradient: radial-gradient(circle at 0% 50%, 
+        #8612ce7b 0%, 
+        #780f49b9 50%, 
+        #341448c1 100%
+    );
+
+    --bg-darkmode: radial-gradient(circle at 0% 50%, 
+        #160324cf 0%, 
+        #000000df 50%, 
+        #2f1b3be3 100%
+    );
+}
+
+.bg-container-light {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: var(--bg-gradient);
+    background-size: 200% 200%;
+    animation: gradient-animation 15s ease infinite;
+}
+
+.bg-container-dark {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: var(--bg-darkmode);
+    background-size: 200% 200%;
+    animation: gradient-animation 15s ease infinite;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+

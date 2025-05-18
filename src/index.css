@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+/* Add smooth scrolling behavior */
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem; /* Adjusts scroll-to-anchor position to account for fixed navbar */
+}
+
+/* Ensure content flows under fixed navbar */
+body {
+    overflow-y: auto;
+}
