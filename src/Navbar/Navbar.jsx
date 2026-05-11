@@ -52,12 +52,7 @@ const Navbar = ({ isLightMode, onModeToggle }) => {
           {isMenuOpen ? <HiX fill="white" /> : <HiMenu fill="white"/>}
         </button>
 
-        <button 
-          className="sm:hidden text-2xl "
-          onClick={() => setIsMenuOpen(!isMenuOpen)}
-        >
-          {isMenuOpen ? <HiX fill="white" /> : <HiMenu fill="white"/>}
-        </button>
+      
 
         {/* Nav Links */}
         <ul className={`absolute md:relative top-full left-0 md:top-0 w-full md:w-auto 

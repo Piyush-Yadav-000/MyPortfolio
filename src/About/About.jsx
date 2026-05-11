@@ -15,7 +15,7 @@ const About = () => {
 
 
   return (
-    <div className='max-w-7xl h-svh mx-auto flex space-x-10 drop-shadow-amber-950  p-2 px-6  justify-between relative'>
+    <div className='max-w-7xl h-svh mx-auto flex space-x-10 drop-shadow-amber-950  p-2 px-6 mt-10 md:mt-0 mb-15 mb-0   justify-between relative'>
       <div className=' flex flex-col md:flex-row mt-25 justify-center items-center'>
         <div className="about-content md:w-1/2 flex-col items-center space-y-7">
           <h1 className='text-3xl font-bold text-white font-["Bricolage Grotesque"]'>
@@ -30,10 +30,10 @@ const About = () => {
           </p>
             <div className='flex py-2 space-x-5'>
                 <div className='border-b-blue-50 text-2xl flex items-center justify-center bg-black text-white rounded-lg p-2 hover:scale-90 transition-all 1s'> <img src="/github.png" className='h-6' alt="Githubpng" /><a href="https://github.com/Piyush-Yadav-000" target='_blank'>Github</a></div>
-                <div className='border-b-blue-50 text-2xl flex items-center justify-center bg-black text-white rounded-lg p-2 hover:scale-90 transition-all 1s'> <img src="/linkedin.webp" className='h-8' alt="" /><a href="https://github.com/Piyush-Yadav-000" target='_blank'>Linkedin</a></div>
+                <div className='border-b-blue-50 text-2xl flex items-center justify-center bg-black text-white rounded-lg p-2 hover:scale-90 transition-all 1s'> <img src="/linkedin.webp" className='h-8' alt="" /><a href="https://www.linkedin.com/in/piyush-yadav-15006y/" target='_blank'>Linkedin</a></div>
 </div>
-          <a className='p-2  text-2xl font-["Bricolage Grotesque"]' id='testbutton' href="/Piyush_Yadav_Resume.docx"
-          download="Piyush_Yadav_Resume.docx">Download Resume</a>
+          <a className='p-2  text-2xl font-["Bricolage Grotesque"]' id='testbutton' href="/Piyush_Yadav.pdf"
+          download="Piyush_Yadav_Resume.pdf">Download Resume</a>
         
 
         </div>
@@ -46,9 +46,9 @@ const About = () => {
     glareEnable={true}
     glareMaxOpacity={0.3}
     glareBorderRadius="20px">
-        <div className="profile-img flex justify-center items-center relative w-68 h-68 rounded-full bg-gradient-to-r from-cyan-500 to-blue-500 
+        <div className="profile-img flex justify-center items-center relative w-68 h-68 rounded-full bg-gradient-to-r from-gray-100 to-gray-300 
             overflow-hidden border-4 border-yellow-400">
-          <img src="src\assets\images\profile-image.jpg"  style={{ objectPosition: '50% 45%' }} className=' absolute  w-full h-full object-cover object-center ' alt="Profile Image" />
+          <img src="assets\images\portfolio_profile_image.jpg"  style={{ objectPosition: '20% 20%' }} className=' absolute  w-full h-full object-cover object-center ' alt="Profile"  scale={-1.05}/>
         </div>
         </Tilt>
       </div>

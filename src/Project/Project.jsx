@@ -6,26 +6,36 @@ const projects = [
     description:
       "A full-stack job portal application that connects job seekers with employers. Features include Login/SignUp, advanced search filters, resume upload, application tracking, and real-time notifications. Built with responsive design and modern authentication. !!!!!!Backend not deployed yet!!!!!!",
     tech: ["HTML", "CSS", "JavaScript", "React JS", "RestAPI","Java","Springboot","Tailwind","MySQL",],
-    image: "src/assets/images/Jobkook-Project-img.png",
-    liveLink: "https://jobhookbypy.netlify.app/",
-    backendVideo:"https://drive.google.com/file/d/1tRYl8FIyK-tKtXRg_Z4DjUFIcBFAvRD5/view?usp=sharing",
-    githubLink: "https://github.com/Piyush-Yadav-000/Jobook.git"
+    image: "assets/images/JobHook Portfolio image.png",
+    // liveLink: "https://jobhookbypy.netlify.app/",
+    backendVideo:"https://drive.google.com/file/d/19JauO_Xmgx0tWEPqKoa3AWREN-tp4jU-/view?usp=drivesdk",
+    githubLink: "https://github.com/Piyush-Yadav-000/jobhook-portal.git"
   },
+  {
+  title: "AlgoLes - A Online Coding Platform",
+  description:
+    "A comprehensive competitive programming platform enabling real-time code execution across multiple languages (Java, C++, Python). Features include Monaco code editor, Judge0 API integration for secure compilation, problem management system, automated test case validation, user submission tracking, and JWT authentication. Built with enterprise-grade architecture achieving 95% code execution accuracy. !!!!!!Live deployment in progress!!!!!!",
+  tech: ["Java", "Spring Boot", "React", "TypeScript", "MySQL", "Judge0 API", "Monaco Editor", "JWT", "REST API", "Hibernate", "JUnit"],
+  image: "assets/images/AlgoLens Portflio image.png",
+  // liveLink: "https://mockarena-frontend.netlify.app/", // Update with your actual deployment link
+  backendVideo: "https://drive.google.com/file/d/1RbvFx2NEvOT7CFTuv9Ds5fo7smIJz2hy/view?usp=drivesdk", // Add your demo video
+  githubLink: "https://github.com/Piyush-Yadav-000/AlgoLens_Coding_Platform_Backend.git"
+},
   {
     title: "My Portfolio ",
     description:
        "A modern, responsive portfolio website built with React and TailwindCSS. Features include dark/light mode, smooth scrolling, interactive project cards, and a contact form integrated with EmailJS. Showcases my projects, skills, and professional experience with elegant animations and transitions.",
     tech: ["React.js", "TailwindCSS", "EmailJS", "JavaScript", "HTML5", "CSS3"],
-    image: "/path-to-csprep-image.png",
-    liveLink: "https://currencyconvertorbypy.netlify.app/",
-    githubLink: "https://github.com/yourusername/portfolio"
+    image: "assets/images/Portfolio.png",
+    liveLink: "https://piyushyadav15.netlify.app/",
+    githubLink: "https://github.com/Piyush-Yadav-000/MyPortfolio.git"
   },
   {
     title: "Currency Converter",
     description:
      "A dynamic currency conversion application built with vanilla JavaScript, HTML5, and CSS3. Features include real-time exchange rates, support for multiple currencies, and an intuitive user interface. Implements responsive design for seamless usage across all devices and integrates with Exchange Rate API for accurate conversions.",
     tech: ["HTML5", "CSS3", "JavaScript", "REST API", "Responsive Design"],
-    image: "src/assets/images/currencycoverter.png",
+    image: "assets/images/currencycoverter.png",
       liveLink: "https://currencyconvertorbypy.netlify.app/",
     githubLink: "https://github.com/Piyush-Yadav-000/Projects/tree/d834b88a04dbf63e9242a1072acd4bb50f9588b2/currency%20convertor"
   },
@@ -34,18 +44,18 @@ const projects = [
     description:
      "An interactive quiz application built with vanilla JavaScript, HTML5, and CSS3. Features include multiple choice questions, timer functionality, score tracking, and instant feedback. Implements local storage for high scores, responsive design for mobile devices, and smooth animations for enhanced user experience.",
     tech: ["HTML5", "CSS3", "JavaScript", "LocalStorage", "Responsive Design"],
-    image: "src/assets/images/Quizapp.png",
+    image: "assets/images/Quizapp.png",
     liveLink: "https://quizappbypy.netlify.app/",
-    githubLink: "https://github.com/Piyush-Yadav-000/Projects/tre"    
+    githubLink: "https://github.com/Piyush-Yadav-000/Projects/tree/d834b88a04dbf63e9242a1072acd4bb50f9588b2/Quiz%20App"    
   },
   {
     title: "Tic Tac Toe",
     description:
      "A classic Tic Tac Toe game built using HTML, CSS, and JavaScript, where two players take turns to mark X and O in a 3×3 grid. The game provides an interactive user experience with sound effects and real-time win",
     tech: ["HTML5", "CSS3", "JavaScript", "Responsive Design"],
-    image: "src/assets/images/Tictactoe.png",
+    image: "assets/images/Tictactoe.png",
       liveLink: "https://gamebypy.netlify.app/",
-    githubLink: "https://github.com/Piyush-Yadav-000/Projects/tree/d834b88a04dbf63e9242a1072acd4bb50f9588b2/currency%20convertor"
+    githubLink: "https://github.com/Piyush-Yadav-000/Projects/tree/d834b88a04dbf63e9242a1072acd4bb50f9588b2/Tictac%20Toe"
   },
 ];
 
